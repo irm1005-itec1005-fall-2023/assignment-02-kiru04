@@ -3,17 +3,113 @@
  * CSS FILE
  */
 
-body {
+ body {
+  background-color: #d2b5a6;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #fb8500;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 1.5rem;
+  line-height: 1.6;
+
+  min-width: 100%;
+  min-height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+
+  margin: auto;
+}
+header nav{
+  color:#d2b5a6;
+  text-align: center;
+}
+header nav li{
+  border: #9e3c40;
 }
 
-h1 {
+header h1{
+  font-family:Georgia, 'Times New Roman', Times, serif;
   font-size: 2rem;
   font-weight: bold;
   text-align: center;
-  color: #023047;
+  color:#d2b5a6;
+  background-color: #9e3c40;
+}
+
+header h2{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #9e3c40;
+}
+header p{
+  text-align: center;
+  font-weight: bold;
+
+}
+header P {
+
+  color:#9e3c40;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+header img{
+  max-width: 100%;
+  margin: 0px auto;
+  background-color:#34344c ;
+
+} 
+
+
+header ul {
+  display: flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.flex-container{
+  border: 1px solid #42c716;
+  border-radius: 10px;
+
+}
+main{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color: #d2b5a6;
+  max-width: 9900px;
+  background-color: #9e3c40 ;
+  box-shadow: 0 0 10px rgb(5,5,5,0);
+}
+main img{
+  max-width: 100%;
+  margin: 0px auto;
+}
+form{
+  
+  float: center;
+  color: #d2b5a6;
+}
+
+form button{
+  background-color: #652628;
+  color: #d2b5a6;
+}
+footer nav h3 {
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color:#e2d0d0;
+  color:#9e3c40;
+  font: size 10px ;
+}
+footer nav h3{
+  background-color:#d2b5a6;
+  color:#9e3c40;
+  text-align: center;
+}
+footer ul {
+  color: #9e3c40;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #9e3c40;
+  display: flex;
+  flex-direction:column;
+  align-items: center;
 }
